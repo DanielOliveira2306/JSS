@@ -1,11 +1,14 @@
 @charset "UTF-8";
 
+@media screen and  (max-width: 627px) {
+
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
     background-color: aqua;
+    overflow-x: hidden;
 }
 
 header h1{
@@ -14,11 +17,12 @@ header h1{
 
 main{
     background-color: white;
-    width: 600px;
+    width: 300px;
     height: 400px;
     border-radius: 10px;
     margin: auto;
     padding: 10px;
+    transition: 0.2s;
 }
 
 article{
@@ -37,4 +41,5 @@ img#img{
 
 article#bom{
     text-align: center;
+}
 }
